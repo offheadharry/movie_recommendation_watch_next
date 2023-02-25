@@ -14,15 +14,11 @@ ENDC = '\033[0m'
 #original_film_title and _description variables created for later use in message printed to user.
 original_film_title = "Planet Hulk"
 original_film_description = nlp('Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk land on the planet Sakaar where he is sold into slavery and trained as a gladiator.')
-#movie_titles, _descriptions & similarity_scores variables set up as default lists for later use.
-movie_titles = []
-movie_descriptions = []
-similarity_scores = []
 
 #-----------Custom Function---------------
 
 def movie_recommendation(film):
-
+    #movie_titles, _descriptions & similarity_scores variables set up as default lists for later use.
     movie_titles = []
     movie_descriptions = []
     similarity_scores = []
